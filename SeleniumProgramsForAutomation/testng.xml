@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="methods">
+    
+    <packages>
+    <package name="com.jsp.*">
+    <exclude name="com.jsp.tests.HeadlessBrowsingFirefox"></exclude>
+    <exclude name="com.jsp.tests.HeadlessBrowsingChrome"></exclude>
+    <exclude name="com.jsp.tests.HeadlessBrowsingHTMLunit"></exclude>
+    </package>
+    </packages>
+    <classes>
+      <class name="com.jsp.tests.DynamicWebTable"/>
+      <class name="com.jsp.tests.AutoSuggestionList"/>
+      <class name="com.jsp.tests.FileUploadSendKeys"/>
+      <class name="com.jsp.tests.HighlightElementJS"/>
+      <class name="com.jsp.tests.BrokenLinksTest"/>
+      <class name="com.jsp.tests.AshotTest1FullSS"/>
+      <class name="com.jsp.tests.TestNGDataProviders"/>
+      <class name="com.jsp.tests.Action"/>
+      <class name="com.jsp.tests.AlertDemo"/>
+      <class name="com.jsp.tests.MultiSelect"/>
+      <class name="com.jsp.tests.DragAndDropDemo"/>
+      <class name="com.jsp.tests.Waits"/>
+      <class name="com.jsp.tests.ElementSpecificCmd"/>
+      <class name="com.jsp.tests.AshotTest2ElementSS"/>
+      <class name="com.jsp.tests.DynamicWebTable2"/>
+      <class name="com.jsp.tests.DoubleAndRightClick"/>
+      <class name="com.jsp.tests.TakesScreenshotTest"/>
+      <class name="com.jsp.tests.AleternateOfSendKeys"/>
+      <class name="com.jsp.tests.CSVRead"/>
+      <class name="com.jsp.tests.BrowserSpecificCmd"/>
+      <class name="com.jsp.tests.WindowSwitchBackParent"/>
+      <class name="com.jsp.tests.simplepingtest"/>
+      <class name="com.jsp.tests.DropDownListSortedOrNot"/>
+      <class name="com.jsp.tests.Test_DataProvider"/>
+      <class name="com.jsp.tests.BrokenLinksTest2"/>
+      <class name="com.jsp.tests.DropDownDemo"/>
+      <class name="com.jsp.tests.ImportLinks"/>
+      <class name="com.jsp.tests.PingTestNoReport"/>
+      <class name="com.jsp.tests.DropDown"/>
+      <class name="com.jsp.tests.RadioCheckbox"/>
+      <class name="com.jsp.tests.ActionsMultiSelect"/>
+      <class name="com.jsp.tests.ExcelPOIDataProvider"/>
+      <class name="com.jsp.tests.DownloadFileChrome"/>
+      <class name="com.jsp.tests.BrowserNavigationCmd"/>
+      <class name="com.jsp.tests.Locators"/>
+      <class name="com.jsp.tests.TestNGParameters"/>
+      <class name="com.jsp.tests.ToolTip"/>
+      <class name="com.jsp.tests.Scrolling"/>
+      <class name="com.jsp.tests.WindowMultipleChild"/>
+      <class name="com.jsp.tests.DropDownBootStrap"/>
+      <class name="com.jsp.tests.HandleWindwowAuthentication"/>
+      <class name="com.jsp.tests.MousehoverDemo"/>
+      <class name="com.jsp.tests.ActiveElement"/>
+      <class name="com.jsp.tests.IframeDemo"/>
+      <class name="com.jsp.tests.ClicksLinksRandomly"/>
+      <class name="com.jsp.tests.WindowChild"/>
+      <class name="com.jsp.tests.ScreenShotElementCrop"/>
+      <class name="com.jsp.tests.ExcelPOI"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

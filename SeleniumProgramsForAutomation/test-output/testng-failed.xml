@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.jsp.tests.ScreenShotElementCrop">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="screenShotElementCrop"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ScreenShotElementCrop -->
+      <class name="com.jsp.tests.MousehoverDemo">
+        <methods>
+          <include name="verifyMousehoverDemo"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.MousehoverDemo -->
+      <class name="com.jsp.tests.TestNGParameters">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jsp.tests.TestNGParameters -->
+      <class name="com.jsp.tests.Action">
+        <methods>
+          <include name="testAction6"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.Action -->
+      <class name="com.jsp.tests.DownloadFileChrome">
+        <methods>
+          <include name="chromeHeadlessBrowsing"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DownloadFileChrome -->
+      <class name="com.jsp.tests.DropDownListSortedOrNot">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="dropDownListSortedOrNot"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DropDownListSortedOrNot -->
+      <class name="com.jsp.tests.ToolTip">
+        <methods>
+          <include name="ToolTipbyAction"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ToolTip -->
+      <class name="com.jsp.tests.DoubleAndRightClick">
+        <methods>
+          <include name="verifyDoubleAndRightClick"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DoubleAndRightClick -->
+      <class name="com.jsp.tests.TakesScreenshotTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="testCase1"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="closedown"/>
+        </methods>
+      </class> <!-- com.jsp.tests.TakesScreenshotTest -->
+      <class name="com.jsp.tests.Test_DataProvider">
+        <methods>
+          <include name="doLogin"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.Test_DataProvider -->
+      <class name="com.jsp.tests.PingTestNoReport">
+        <methods>
+          <include name="setUp"/>
+          <include name="pinggoogle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jsp.tests.PingTestNoReport -->
+      <class name="com.jsp.tests.HeadlessBrowsingFirefox">
+        <methods>
+          <include name="firefoxHeadlessBrowsing"/>
+        </methods>
+      </class> <!-- com.jsp.tests.HeadlessBrowsingFirefox -->
+      <class name="com.jsp.tests.ExcelPOIDataProvider">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="excelFileReadDP"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ExcelPOIDataProvider -->
+      <class name="com.jsp.tests.TestNGDataProviders">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.jsp.tests.TestNGDataProviders -->
+      <class name="com.jsp.tests.BrokenLinksTest2">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="verifyBrokenLinks"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.BrokenLinksTest2 -->
+      <class name="com.jsp.tests.DragAndDropDemo">
+        <methods>
+          <include name="verifyDragAndDropDemo"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DragAndDropDemo -->
+      <class name="com.jsp.tests.HeadlessBrowsingChrome">
+        <methods>
+          <include name="chromeHeadlessBrowsing2"/>
+        </methods>
+      </class> <!-- com.jsp.tests.HeadlessBrowsingChrome -->
+      <class name="com.jsp.tests.ActionsMultiSelect">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="verifymultiSelectActions"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ActionsMultiSelect -->
+      <class name="com.jsp.tests.IframeDemo">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="verifyIframeDemo"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.IframeDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

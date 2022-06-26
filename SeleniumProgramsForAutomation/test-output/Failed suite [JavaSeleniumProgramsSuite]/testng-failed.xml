@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Failed suite [JavaSeleniumProgramsSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ProgramsTest(failed)(failed)">
+    <classes>
+      <class name="com.jsp.tests.Action">
+        <methods>
+          <include name="testAction6"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.Action -->
+      <class name="com.jsp.tests.Test_DataProvider">
+        <methods>
+          <include name="doLogin"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.Test_DataProvider -->
+      <class name="com.jsp.tests.ExcelPOIDataProvider">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="excelFileReadDP"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ExcelPOIDataProvider -->
+      <class name="com.jsp.tests.BrokenLinksTest2">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="verifyBrokenLinks"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.BrokenLinksTest2 -->
+      <class name="com.jsp.tests.DropDownListSortedOrNot">
+        <methods>
+          <include name="dropDownListSortedOrNot"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DropDownListSortedOrNot -->
+    </classes>
+  </test> <!-- ProgramsTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [JavaSeleniumProgramsSuite]] -->

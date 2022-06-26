@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [JavaSeleniumProgramsSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ProgramsTest(failed)">
+    <classes>
+      <class name="com.jsp.tests.ToolTip">
+        <methods>
+          <include name="ToolTipbyAction"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.ToolTip -->
+      <class name="com.jsp.tests.DropDownListSortedOrNot">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="dropDownListSortedOrNot"/>
+        </methods>
+      </class> <!-- com.jsp.tests.DropDownListSortedOrNot -->
+      <class name="com.jsp.tests.Action">
+        <methods>
+          <include name="testAction6"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.jsp.tests.Action -->
+    </classes>
+  </test> <!-- ProgramsTest(failed) -->
+</suite> <!-- Failed suite [JavaSeleniumProgramsSuite] -->
